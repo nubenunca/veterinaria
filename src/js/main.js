@@ -11,5 +11,6 @@ form.addEventListener("submit", (event) => {
   console.log("nombre mascota", formData.get("petName"));
   console.log(`birthDate:${birthDate}`);
   console.log(`petName:${petName}`);
-  
+
 });
+
