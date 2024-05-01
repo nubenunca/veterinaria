@@ -1,6 +1,7 @@
-const submitButton = document.querySelector("#btn-registrar");
+const submitButton = document.getElementById("createSubmitButton");
 const form = document.querySelector("form");
 
 submitButton.addEventListener("click", () => {
-  console.log("submit");
+  event.preventDefault();
+  console.log("agragando mascota");
 });
