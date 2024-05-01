@@ -1,7 +1,6 @@
-const submitButton = document.getElementById("createSubmitButton");
-const form = document.querySelector("form");
+const form = document.getElementById("createForm");
 
-submitButton.addEventListener("click", () => {
+form.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("agragando mascota");
+  console.log("mascota creada exitosamente", event);
 });
