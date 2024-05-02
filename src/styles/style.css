@@ -1,1 +1,50 @@
 @import url(./reset.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#create-pet-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+   
+#create-form{
+    background-color:blueviolet;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    
+    #create-form{
+        width: 100%;
+    }
+    
+    #mascotas{
+     display: flex;
+     flex-direction: column;
+    }
+    
+    #create-pet-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        
+    }
+  }
+
+    
+
+
+
